@@ -1,0 +1,25 @@
+{
+    "name": "gelb",
+    "displayName": "gelb",
+    "description": "GeLB",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "gelb",
+            "aliases": ["GeLB", "gelb"],
+            "extensions": [".gelb"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "gelb",
+            "scopeName": "source.gelb",
+            "path": "./syntaxes/gelb.tmLanguage.json"
+        }]
+    }
+}

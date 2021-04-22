@@ -1,0 +1,55 @@
+(base) ➜  vscode git:(main) ✗ yo code
+? ==========================================================================
+We're constantly looking for ways to make yo better! 
+May we anonymously report usage statistics to improve the tool over time? 
+More info: https://github.com/yeoman/insight & http://yeoman.io
+========================================================================== No
+
+     _-----_     ╭──────────────────────────╮
+    |       |    │   Welcome to the Visual  │
+    |--(o)--|    │   Studio Code Extension  │
+   `---------´   │        generator!        │
+    ( _´U`_ )    ╰──────────────────────────╯
+    /___A___\   /
+     |  ~  |     
+   __'.___.'__   
+ ´   `  |° ´ Y ` 
+
+? What type of extension do you want to create? New Language Support
+Enter the URL (http, https) or the file path of the tmLanguage grammar or press ENTER to start with a new grammar.
+? URL or file to import, or none for new: 
+? What's the name of your extension? gelb
+? What's the identifier of your extension? gelb
+? What's the description of your extension? GeLB
+Enter the id of the language. The id is an identifier and is single, lower-case name such as 'php', 'javascript'
+? Language id: gelb
+Enter the name of the language. The name will be shown in the VS Code editor mode selector.
+? Language name: GeLB
+Enter the file extensions of the language. Use commas to separate multiple entries (e.g. .ruby, .rb)
+? File extensions: .gelb
+Enter the root scope name of the grammar (e.g. source.ruby)
+? Scope names: source.gelb
+? Initialize a git repository? No
+
+Writing in /home/dchirila/Dropbox/mySWProjects/Work/gelb/editor_support/vscode/gelb...
+   create syntaxes/gelb.tmLanguage.json
+   create .vscode/launch.json
+   create package.json
+   create README.md
+   create CHANGELOG.md
+   create vsc-extension-quickstart.md
+   create language-configuration.json
+   create .vscodeignore
+
+Your extension gelb has been created!
+
+To start editing with Visual Studio Code, use the following commands:
+
+     cd gelb
+     code-insiders .
+
+Open vsc-extension-quickstart.md inside the new extension for further instructions
+on how to modify, test and publish your extension.
+
+For more information, also visit http://code.visualstudio.com and follow us @code.
+

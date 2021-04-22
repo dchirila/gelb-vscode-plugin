@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "GeLB Programming Language",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.gelb",
+				"match": "\\b(array|bool|configuration|const|constants|d|description|df_type|dynamic|false|gauge|gelb_version|geometry|in|initializer|int|lattice|lattices|node_class|node_classes|nodes|out|periodicity|q|real|short_name|simulation_metadata|size|true|x|y|z)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.gelb",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.gelb",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.gelb"
+}
