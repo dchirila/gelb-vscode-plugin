@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.gelb",
-				"match": "\\b(array|bool|global_constants|const|constants|d|simulation_description|df_type|dynamic|false|gauge|gelb_version|geometry|in|initializer|int|lattice|lattices|node_class|node_classes|nodes|out|periodicity|q|real|simulation_name|size|true|x|y|z)\\b"
+				"match": "\\b(array|bool|global_constants|const|constants|d|simulation_description|df_type|dynamic|false|gauge|gelb_version|geometry|in|initializer|int|lattice|lattices|lattice_constants|node_class|node_classes|nodes|out|periodicity|q|real|simulation_name|size|true|x|y|z)\\b"
 			}]
 		},
 		"strings": {

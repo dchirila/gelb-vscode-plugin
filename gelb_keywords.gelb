@@ -1,4 +1,5 @@
 simulation_description
+lattice_constants
 global_constants
 simulation_name
 node_classes
