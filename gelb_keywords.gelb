@@ -1,11 +1,10 @@
-simulation_metadata
-configuration
+simulation_description
+global_constants
+simulation_name
 node_classes
 gelb_version
 periodicity
 initializer
-description
-short_name
 node_class
 constants
 lattices
